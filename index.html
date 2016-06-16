@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -13,6 +15,64 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <img src="img/img.jpg" width="25%" alt="">
+        <p class="title name">Tsubasa Kobayashi</p>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4" "col-xs-12">
+           <p class="title">PROFILE</p>
+           <p>名前 小林 翼</p>
+           <p>帝京平成大学ヒューマンケア学部柔道整復学科</p>
+           <p><span>Photoshop,Illustrator</span>を使ってロゴ制作、バナー作り<span>ruby on rails</span>を使ってアプリなど<br>色々なことをできるようになることが今の目標。</p>
+          		<div class="btn_spae">
+            		<div class="btn btn-twitter">
+    		          <a href="https://twitter.com/?lang=ja">
+           			  <div><i class="fa fa-twitter"></i></div></a>
+           			</div>
+          			<div class="btn btn-facebook">
+          				<a href="https://ja-jp.facebook.com/">
+          				<div><i class="fa fa-facebook"></i></div></a>
+          			</div>
+          		</div>
+			  </div>
+        <div class="col-sm-8 col-xs-12">
+          <p class="title">PORTFOLIO</p>
+          		<a class="portfolio1 p-h col-sm-6 col-xs-12 row--nopadding" href="#">
+          			<figure><img src="img/c.jpg">
+          				<figcaption>
+          					<p>app</p>
+          					<h3>Demo</h3>
+          				</figcaption>
+          			</figure>
+          		</a>
+          		<a class="portfolio2 p-h col-sm-6 col-xs-12 row--nopadding" href="#">
+          			<figure><img src="img/1.jpg">
+          				<figcaption>
+          					<h3>DEMO</h3>
+          					<p>portfolio</p>
+          				</figcaption>
+          			</figure>
+          		</a>
+          		<a class="portfolio3 p-h col-sm-6 col-xs-12 row-0" href="#">
+          			<figure><img src="img/no.jpg">
+          				<figcaption>
+          					<h3>DEMO</h3>
+          					<p>portfolio</p>
+          				</figcaption>
+          			</figure>
+          		</a>
+          		<a class="portfolio4 p-h col-sm-6 col-xs-12 row-0" href="#">
+          			<figure><img src="img/no.jpg">
+          				<figcaption>
+          					<h3>DEMO</h3>
+          					<p>portfolio</p>
+          				</figcaption>
+          			</figure>
+          		</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
