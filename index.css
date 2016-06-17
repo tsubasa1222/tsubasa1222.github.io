@@ -168,3 +168,7 @@ figure:hover img{
     -ms-transform: scale(1.2)rotate(-8deg);
     transform: scale(1.2)rotate(-8deg);
 }
+
+.p_img{
+	width: 25%
+}
